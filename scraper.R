@@ -2,6 +2,8 @@
 #install.packages("httr")
 library(rvest)
 library(httr)
+# add regexing to make sure its a url
+#apparently readLine is interactive mode only
 
 readURL <- function(){
 
